@@ -1,4 +1,9 @@
-// Assignment code here
+var passwordText = {
+  value: ""
+}
+
+function generatePassword() {
+}
 
 
 // Get references to the #generate element
