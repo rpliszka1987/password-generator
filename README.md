@@ -14,3 +14,7 @@
 - Prompt window to ask user to make selections
 - Use Math.random() to generate random password.
 - Print to browser window generated password.
+
+### Page URL
+
+- https://rpliszka1987.github.io/password-generator/
