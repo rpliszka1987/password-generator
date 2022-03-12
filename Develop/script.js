@@ -20,10 +20,6 @@ var passwordLengthCheck = function() {
 
 function generatePassword() {
   passwordLengthCheck();
-
-
-  
-  
 };
 
 // Calculates the number of characters.
