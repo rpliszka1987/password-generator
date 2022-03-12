@@ -3,8 +3,14 @@ var passwordText = {
 }
 
 function generatePassword() {
-}
+  
+};
 
+// Calculates the number of characters.
+var passwordLength = function(min, max) {
+    
+
+};
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -16,7 +22,7 @@ function writePassword() {
 
   passwordText.value = password;
 
-}
+};
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
