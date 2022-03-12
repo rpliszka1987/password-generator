@@ -1,14 +1,34 @@
-var passwordText = {
-  value: ""
+var passwordInfo = {
+  value: "",
+  length: 8
 }
 
+var passwordLengthCheck = function() {
+  var passwordLength = window.prompt("Please specify number of characters from 8 to 128.");
+  passwordLength = parseInt(passwordLength);
+  console.log(passwordLength);
+
+  // Check to make sure the entry is between 8 and 128 characters
+  if (passwordLength >= 8 && passwordLength <= 128) {
+    passwordInfo.length = passwordLength;
+  } else {
+    window.alert("Please enter a number between 8 and 128. Try again!");
+    passwordLengthCheck();
+  }
+};
+
+
 function generatePassword() {
+  passwordLengthCheck();
+
+
+  
   
 };
 
 // Calculates the number of characters.
 var passwordLength = function(min, max) {
-    
+
 
 };
 
