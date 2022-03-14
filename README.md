@@ -18,3 +18,7 @@
 ### Page URL
 
 - https://rpliszka1987.github.io/password-generator/
+
+### Page Image
+
+![Page Screenshot](./images/siteImage.png)
