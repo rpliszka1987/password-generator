@@ -125,7 +125,7 @@ var specialCharactersFunction = function() {
       window.alert("Fields left empty. Please try again");
       specialCharactersFunction();
     } else {
-      spcialCharacterChoice = specialCharacterChoice.toLowerCase();
+      specialCharacterChoice = specialCharacterChoice.toLowerCase();
 
       switch (specialCharacterChoice) {
         case 'yes':
